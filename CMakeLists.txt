@@ -140,6 +140,15 @@ include_directories(
   ${PCL_INCLUDE_DIRS}
 )
 
+link_directories(
+	include
+	${OpenCV_LIBRARY_DIRS}
+	${PCL_LIBRARY_DIRS}
+)
+
+add_definitions(${PCL_DEFINITIONS})
+
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/helloWorld.cpp
@@ -273,3 +282,20 @@ target_link_libraries(tf_broadcaster ${catkin_LIBRARIES})
 add_executable(tf_listener src/tf_listener.cpp)
 target_link_libraries(tf_listener ${catkin_LIBRARIES})
 
+add_executable(turtle_tf2_broadcaster src/turtle_tf2_broadcaster.cpp)
+target_link_libraries(turtle_tf2_broadcaster ${catkin_LIBRARIES})
+
+add_executable(turtle_tf2_listener src/turtle_tf2_listener.cpp)
+target_link_libraries(turtle_tf2_listener ${catkin_LIBRARIES})
+
+add_executable(avoid src/avoid.cpp)
+target_link_libraries(avoid ${catkin_LIBRARIES})
+
+add_executable(pcl_ransac_test src/pcl_ransac_test.cpp)
+target_link_libraries(pcl_ransac_test ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(pcl_voxelGrid_test src/pcl_voxelGrid_test.cpp)
+target_link_libraries(pcl_voxelGrid_test ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+
+add_executable(pcl_voxelGrid_class_test src/pcl_voxelGrid_class_test.cpp)
+target_link_libraries(pcl_voxelGrid_class_test ${catkin_LIBRARIES} ${PCL_LIBRARIES})
