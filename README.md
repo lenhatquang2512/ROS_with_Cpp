@@ -20,6 +20,7 @@
  For example:
  
  rosrun helloWorld image_publisher
+ 
  rosrun helloWorld edge_extraction
  
  You can test the launch file with tf examples using turtlesim:
