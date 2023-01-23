@@ -6,7 +6,7 @@
 * ROS Noetic
 * PCL, OpenCV 
 ### Install (without catkin)
-* mkdir -p /catkin_ws/src
+* `mkdir -p /catkin_ws/src`
 * cd ..
 * catkin_make
 * cd src
