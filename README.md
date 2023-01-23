@@ -19,13 +19,13 @@
  * Just read the src codes and run the node in the C++ file you want to run.
  * For example:
  
- rosrun helloWorld image_publisher
+ `rosrun helloWorld image_publisher`
  
- rosrun helloWorld edge_extraction
+ `rosrun helloWorld edge_extraction`
  
  * You can test the launch file with tf examples using turtlesim:
  
- roslaunch helloWorld start_demo.launch
+ `roslaunch helloWorld start_demo.launch`
  
  * There are 2 Python codes to illustrate the "service" property of ROS, these can be tested as well.
 
