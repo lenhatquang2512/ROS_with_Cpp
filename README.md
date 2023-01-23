@@ -7,7 +7,7 @@
 * PCL, OpenCV 
 ### Install (without catkin)
 * `mkdir -p /catkin_ws/src`
-* cd ..
+* 'cd ..'
 * catkin_make
 * cd src
 * git clone https://github.com/lenhatquang2512/ROS_with_Cpp.git
