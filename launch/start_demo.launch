@@ -7,12 +7,12 @@
     <param name="scale_linear" value="2" type="double"/>
     <param name="scale_angular" value="2" type="double"/>
 
-    <node pkg="helloWorld" type="turtle_tf2_broadcaster"
+    <node pkg="ROS_with_Cpp" type="turtle_tf2_broadcaster"
           args="/turtle1" name="turtle1_tf2_broadcaster" />
-    <node pkg="helloWorld" type="turtle_tf2_broadcaster"
+    <node pkg="ROS_with_Cpp" type="turtle_tf2_broadcaster"
           args="/turtle2" name="turtle2_tf2_broadcaster" />
 
-    <node pkg="helloWorld" type="turtle_tf2_listener"
+    <node pkg="ROS_with_Cpp" type="turtle_tf2_listener"
     name="listener" />
 
   </launch>

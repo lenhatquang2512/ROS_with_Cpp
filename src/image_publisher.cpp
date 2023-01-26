@@ -27,7 +27,7 @@ ImagePublisher::ImagePublisher(void):
     nh_("~"),
     outputTopicName_("/image_test"),
     loopRate_(1.0),
-    imageDir_("/home/quang_le/intro_ros_ws/src/helloWorld/images/"),
+    imageDir_("/home/quang_le/intro_ros_ws/src/ROS_with_Cpp/images/"),
     it_(nh_)
 {
     nh_.param("test_msg_name", outputTopicName_, outputTopicName_);
