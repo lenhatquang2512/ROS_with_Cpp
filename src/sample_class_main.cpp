@@ -1,6 +1,6 @@
 #include<ros/ros.h>
 #include<iostream>
-#include<helloWorld/SampleClass.h>
+#include<ros_with_cpp/SampleClass.h>
 
 int main(int argc, char **argv)
 {

@@ -1,5 +1,5 @@
 #include<iostream>
-#include<helloWorld/SampleClass.h>
+#include<ros_with_cpp/SampleClass.h>
 
 SampleClass::SampleClass(){
     std::cout << "hello" << std::endl;
