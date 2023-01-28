@@ -1,0 +1,8 @@
+  <launch>
+     <!-- Turtlesim Node-->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+
+    <node pkg="ROS_with_Cpp" type="helloWorld"
+    name="helloWorld" output="screen"/>
+
+  </launch>
