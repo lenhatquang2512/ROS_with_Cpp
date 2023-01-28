@@ -20,7 +20,7 @@
 ### Install 
 
 * `mkdir -p catkin_ws/src`
-* `cd ..`
+* `cd catkin_ws/`
 * `catkin_make`
 * `cd src`
 * `git clone https://github.com/lenhatquang2512/ROS_with_Cpp.git`
