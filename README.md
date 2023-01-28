@@ -3,7 +3,7 @@
 
 ### Requirements
 * Ubuntu 20.04
-* ROS Noetic
+* ROS Noetic (ROS1)
 * PCL, OpenCV 
 ### Install (without catkin)
 * `mkdir -p /catkin_ws/src`
@@ -26,6 +26,8 @@
  * You can test the launch file with tf examples using turtlesim:
  
  `roslaunch helloWorld start_demo.launch`
+ 
+ `roslaunch ROS_with_Cpp tf_broadcast_listen_test.launch`
  
  * There are 2 Python codes to illustrate the "service" property of ROS, these can be tested as well.
 
