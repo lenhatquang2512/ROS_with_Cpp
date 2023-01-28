@@ -9,8 +9,11 @@
 
 * To install PCL,OpenCV, Gnuplot please run these commands in the terminal (easiest and quickest way to install):
 `sudo apt install libpcl-dev`
+
 `sudo apt install libopencv-dev python3-opencv`
+
 `sudo apt install gnuplot`
+
 * To install ROS, please follow the instructions in the ROS wiki.
 
 ### Install 
