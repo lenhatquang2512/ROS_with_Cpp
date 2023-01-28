@@ -24,7 +24,8 @@
 * `catkin_make`
 * `cd src`
 * `git clone https://github.com/lenhatquang2512/ROS_with_Cpp.git`
-* `cd .. & catkin_make`
+* `cd ..`
+* `catkin_make`
 * `source devel/setup.bash`
 
 
