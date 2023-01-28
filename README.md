@@ -70,8 +70,8 @@ To show the image above, simply type:
 
 ### Reason I created this package
 
-* You can follow the ROS wiki tutorial along with this repo to understand better about ROS. Usually the ROS tutorial covers too many stuffs but if you want to quicky integrate into a ROS project, this repo is for you. I understand all of this since I was also a ROS beginner at that time.
-
 * Maybe , this is the most intricate "helloWorld" that you will have, since it covers nearly everything that you need to know fundamentally about ROS with Cpp. Some examples can be publisher/subscriber format, service/client system, and some basic Cpp like loops, ifelse, function, class, vector, header files and file I/O are also summerized briefly. More intermediate knowledge like opencv for camera sensor and PCL for LiDAR sensor are also will be fully investigated and studied in the near future. I will continuously update this repository so that it will become the best (hopefully) "helloWorld for all" ROS user. That is my main target goal when creating this repo. 
+
+* You can follow the ROS wiki tutorial along with this repo to understand better about ROS. Usually the ROS tutorial covers too many stuffs but if you want to quicky integrate into a ROS project, this repo is for you. I understand all of this since I was also a ROS beginner at that time.
 
 
