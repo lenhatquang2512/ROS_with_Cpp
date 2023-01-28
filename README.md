@@ -19,7 +19,7 @@
 
 ### Install 
 
-* `mkdir -p /catkin_ws/src`
+* `mkdir -p catkin_ws/src`
 * `cd ..`
 * `catkin_make`
 * `cd src`
