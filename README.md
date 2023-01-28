@@ -32,9 +32,7 @@
  * Just read the src codes and run the node in the C++ file you want to run.
  * For example:
  
- `rosrun ROS_with_Cpp image_publisher`
- 
- `rosrun ROS_with_Cpp edge_extraction`
+ `rosrun ROS_with_Cpp animation_test`
  
  * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test:
  
