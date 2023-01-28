@@ -1,0 +1,17 @@
+  <launch>
+    <!-- <arg name="imageDir_" default="$(find ROS_with_Cpp)/images/"/> -->
+
+    <node pkg="ROS_with_Cpp" type="image_publisher"
+    name="image_publisher" output="screen">
+        <param name="imageDir_"  type="string"  value="$(find ROS_with_Cpp)/images/"/>
+    </node>
+
+    <node pkg="ROS_with_Cpp" type="edge_extraction"
+    name="edge_extraction" output="screen"/>
+
+
+  <!-- ROS Visualization -->
+  <node pkg="rviz" type="rviz" name="rviz" 
+    args="-d $(find ROS_with_Cpp)/config/img_pub_extract.rviz"/>
+
+  </launch>

@@ -27,10 +27,11 @@ ImagePublisher::ImagePublisher(void):
     nh_("~"),
     outputTopicName_("/image_test"),
     loopRate_(1.0),
-    imageDir_("/home/quang_le/intro_ros_ws/src/ROS_with_Cpp/images/"),
+    // imageDir_("/home/quang_le/intro_ros_ws/src/ROS_with_Cpp/images/"),
     it_(nh_)
 {
     nh_.param("test_msg_name", outputTopicName_, outputTopicName_);
+    nh_.param("imageDir_",imageDir_,imageDir_);
     // imagePub_ = nh_.advertise<sensor_msgs::Image>(outputTopicName_, 1);
     imagePub_ = it_.advertise(outputTopicName_, 1);
 }
