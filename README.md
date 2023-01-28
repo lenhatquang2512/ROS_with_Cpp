@@ -8,6 +8,7 @@
 * Gnuplot (not actually required, but very easy to use just like matplotlib in Python)
 
 * To install PCL,OpenCV, Gnuplot please run these commands in the terminal (easiest and quickest way to install):
+
 `sudo apt install libpcl-dev`
 
 `sudo apt install libopencv-dev python3-opencv`
