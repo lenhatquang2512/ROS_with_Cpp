@@ -36,15 +36,17 @@
  
  ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_with_animation_plot_demo.gif)
  
- rosrun ROS_with_Cpp plot_test
+ `rosrun ROS_with_Cpp plot_test`
  
 ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/plot_test_demo.png)
 
 To show the image above, simply type:
 
-*`cd ROS_with_cpp`
-*`gnuplot`
-*`splot "data.txt"`
+`cd ROS_with_cpp`
+
+`gnuplot`
+
+`splot "data.txt"`
  
  * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test:
  
