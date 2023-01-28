@@ -27,12 +27,13 @@
 * `cd ..`
 * `catkin_make`
 * `source devel/setup.bash`
-* `roscore`
 
 
 ### Usage
  * Just read the src codes and run the node in the C++ file you want to run.
- * For example, open a new terminal, and type (always source devel/setup.bash in a new terminal before running):
+ * For example, type roscore, open a new terminal, and type (always source devel/setup.bash in a new terminal before running):
+ 
+ `source devel/setup.bash`
  
  `rosrun ROS_with_Cpp animation_test`
  
