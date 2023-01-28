@@ -1,0 +1,16 @@
+  <launch>
+    <node pkg="ROS_with_Cpp" type="tf_broadcast_test"
+    name="tf_broadcast_test" output="screen"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="map2laser" 
+      args="1 0 0 0 0 0 base_link laser 100"/>
+
+    <node pkg="ROS_with_Cpp" type="tf_listen_test"
+    name="tf_listen_test" output="screen"/>
+
+
+  <!-- ROS Visualization -->
+  <node pkg="rviz" type="rviz" name="rviz" 
+    args="-d $(find ROS_with_Cpp)/config/broadcast_test.rviz"/>
+
+  </launch>

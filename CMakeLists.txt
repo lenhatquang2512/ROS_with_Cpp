@@ -302,3 +302,6 @@ target_link_libraries(pcl_voxelGrid_class_test ${catkin_LIBRARIES} ${PCL_LIBRARI
 
 add_executable(tf_broadcast_test src/tf_broadcast_test.cpp)
 target_link_libraries(tf_broadcast_test ${catkin_LIBRARIES})
+
+add_executable(tf_listen_test src/tf_listen_test.cpp)
+target_link_libraries(tf_listen_test ${catkin_LIBRARIES})
