@@ -36,10 +36,14 @@
  
  `rosrun ROS_with_Cpp edge_extraction`
  
- * You can test the launch file with tf examples using turtlesim:
+ * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test:
  
  `roslaunch ROS_with_Cpp start_demo.launch`
  
+ `roslaunch ROS_with_Cpp image_publish_edge_extract.launch`
+ 
+ ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_with_cpp_image_edge_demo.gif)
+
  `roslaunch ROS_with_Cpp tf_broadcast_listen_test.launch`
  
  ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_cpp_tf_demo.gif)
