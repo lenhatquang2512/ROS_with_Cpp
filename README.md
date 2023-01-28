@@ -34,6 +34,8 @@
  
  `rosrun ROS_with_Cpp animation_test`
  
+ ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_with_animation_plot_demo.gif)
+ 
  * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test:
  
  `roslaunch ROS_with_Cpp start_demo.launch`
