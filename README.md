@@ -32,7 +32,7 @@
 
 ### Usage
  * Just read the src codes and run the node in the C++ file you want to run.
- * For example, open a new terminal, and type:
+ * For example, open a new terminal, and type (always source devel/setup.bash in a new terminal before running):
  
  `rosrun ROS_with_Cpp animation_test`
  
