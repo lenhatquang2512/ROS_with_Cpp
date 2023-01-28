@@ -31,7 +31,7 @@
 
 ### Usage
  * Just read the src codes and run the node in the C++ file you want to run.
- * For example, type roscore, open a new terminal, and type (always source devel/setup.bash in a new terminal before running):
+ * For example, type `roscore` in the current terminal, open a new terminal, and type (always source devel/setup.bash in a new terminal before running):
  
  `source devel/setup.bash`
  
