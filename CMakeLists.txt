@@ -295,8 +295,8 @@ target_link_libraries(turtle_tf2_broadcaster ${catkin_LIBRARIES})
 add_executable(turtle_tf2_listener src/turtle_tf2_listener.cpp)
 target_link_libraries(turtle_tf2_listener ${catkin_LIBRARIES})
 
-add_executable(avoid src/avoid.cpp)
-target_link_libraries(avoid ${catkin_LIBRARIES})
+# add_executable(avoid src/avoid.cpp)
+# target_link_libraries(avoid ${catkin_LIBRARIES})
 
 add_executable(pcl_ransac_test src/pcl_ransac_test.cpp)
 target_link_libraries(pcl_ransac_test ${catkin_LIBRARIES} ${PCL_LIBRARIES})
@@ -315,3 +315,9 @@ target_link_libraries(tf_listen_test ${catkin_LIBRARIES})
 
 add_executable(test_lidar_node src/test_lidar_node.cpp)
 target_link_libraries(test_lidar_node ${catkin_LIBRARIES} ROS_with_Cpp)
+
+add_executable(cam_pub_test src/cam_pub_test.cpp)
+target_link_libraries(cam_pub_test ${catkin_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(cam_sub_test src/cam_sub_test.cpp)
+target_link_libraries(cam_sub_test ${catkin_LIBRARIES} ${OpenCV_LIBS})

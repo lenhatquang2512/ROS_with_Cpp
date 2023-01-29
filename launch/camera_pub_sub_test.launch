@@ -1,0 +1,12 @@
+<launch>
+  <node
+    pkg="ROS_with_Cpp" type="cam_pub_test" name="cam_pub_test" output="screen"
+  />
+  <node
+    pkg="ROS_with_Cpp" type="cam_sub_test" name="cam_sub_test" output="screen"
+  />
+
+    <!-- ROS Visualization -->
+  <node pkg="rviz" type="rviz" name="rviz" 
+    args="-d $(find ROS_with_Cpp)/config/cam_test.rviz"/>
+</launch>
