@@ -74,7 +74,7 @@ To show the image above, simply type:
 
 * You can follow the ROS wiki tutorial along with this repo to understand better about ROS. Usually the ROS tutorial covers too many stuffs but if you want to quicky integrate into a ROS project, this repo is for you.
 
-*Update 29 Jan 2023 : More URDF files, interact with Gazebo, more equivalent Python codes, etc.. will be added soon. I am thinking even moving to ROS2 as well. Although the name of this repo is "ROS with C++", but I will not limit it to only C++.
+*Update 29 Jan 2023 : More URDF files, interact with Gazebo, more equivalent Python codes, rosserial with Arduino, etc.. will be added soon. I am thinking even moving to ROS2 as well. Although the name of this repo is "ROS with C++", but I will not limit it to only C++.
 
 
 
