@@ -51,15 +51,27 @@ To show the image above, simply type:
 
 `splot "data.txt"`
  
- * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test:
+ * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test.
+ 
+ * Test control the simulated turtle:
  
  `roslaunch ROS_with_Cpp helloWorld.launch`
  
  ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_with_cpp_helloWorld_demo.gif)
  
+ * You can test your laptop camera by launching:
+ 
+ `roslaunch ROS_with_Cpp camera_pub_sub_test.launch`
+ 
+ ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/cam_test.png)
+ 
+ * Some examples with edge extraction:
+ 
  `roslaunch ROS_with_Cpp image_publish_edge_extract.launch`
  
  ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/ros_with_cpp_image_edge_demo.gif)
+ 
+ * tf broadcast and listen test and visualise in Rviz:
 
  `roslaunch ROS_with_Cpp tf_broadcast_listen_test.launch`
  
