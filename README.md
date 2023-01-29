@@ -45,7 +45,7 @@
 
 To show the image above, simply type:
 
-`cd ROS_with_cpp`
+`cd catkin_ws/`
 
 `gnuplot`
 
