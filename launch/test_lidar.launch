@@ -1,0 +1,11 @@
+<launch>
+    <arg name="hz" default="20"/>
+    <!-- <include file="$(find rplidar_ros)/launch/rplidar.launch" /> -->
+
+    <node pkg="ROS_with_Cpp" name="test_lidar_node" type="test_lidar_node" output="screen">
+        <param name="hz" value="$(arg hz)"/>
+       
+    </node>
+
+
+</launch>

@@ -25,7 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
-
+find_package(Eigen3 REQUIRED COMPONENTS system)
 find_package(OpenCV REQUIRED)
 find_package(PCL REQUIRED)
 
@@ -122,7 +122,7 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
  INCLUDE_DIRS include 
- LIBRARIES helloWorld
+ LIBRARIES ROS_with_Cpp
  CATKIN_DEPENDS cv_bridge geometry_msgs nav_msgs pcl_conversions pcl_ros rosbag roscpp rospy sensor_msgs std_msgs tf image_transport message_runtime
  DEPENDS system_lib EIGEN3 PCL
 )
@@ -138,6 +138,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}
   ${PCL_INCLUDE_DIRS}
+  ${EIGEN3_INCLUDE_DIRS}
 )
 
 link_directories(
@@ -154,10 +155,16 @@ add_definitions(${PCL_DEFINITIONS})
 #   src/${PROJECT_NAME}/helloWorld.cpp
 # )
 
+add_library(ROS_with_Cpp
+  src/lidar_test_data.cpp
+)
+
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+add_dependencies(ROS_with_Cpp ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
@@ -305,3 +312,6 @@ target_link_libraries(tf_broadcast_test ${catkin_LIBRARIES})
 
 add_executable(tf_listen_test src/tf_listen_test.cpp)
 target_link_libraries(tf_listen_test ${catkin_LIBRARIES})
+
+add_executable(test_lidar_node src/test_lidar_node.cpp)
+target_link_libraries(test_lidar_node ${catkin_LIBRARIES} ROS_with_Cpp)
