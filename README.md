@@ -53,7 +53,7 @@ To show the image above, simply type:
 
 `rosrun ROS_with_Cpp plot_sphere`
  
-![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/plot_sphere.png)
+![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/sphere.png)
  
  * You can test launch files with tf examples using turtlesim, image publish and edge extraction, or tf broadcast and listen test.
  
