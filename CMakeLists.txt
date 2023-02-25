@@ -256,6 +256,9 @@ target_link_libraries(plot_test ${catkin_LIBRARIES})
 add_executable(animation_test src/animation_test.cpp)
 target_link_libraries(animation_test ${catkin_LIBRARIES})
 
+add_executable(plot_sphere src/plot_sphere.cpp)
+target_link_libraries(plot_sphere ${catkin_LIBRARIES})
+
 add_executable(arguments src/arguments.cpp)
 target_link_libraries(arguments ${catkin_LIBRARIES})
 
