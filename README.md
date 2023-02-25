@@ -51,6 +51,7 @@ To show the image above, simply type:
 
 `splot "data.txt"`
  * Other plot that can be played and tested:
+ 
 `rosrun ROS_with_Cpp plot_sphere`
  
 ![](https://github.com/lenhatquang2512/ROS_with_Cpp/blob/main/images/gif/sphere.png)
